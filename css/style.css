@@ -1,0 +1,34 @@
+body {
+    padding-top: 60px;
+  }
+  @media (max-width: 979px) {
+    body {
+      padding-top: 0px;
+    }
+  }
+
+/* navbar */
+.navbar{
+    box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1)
+}
+
+.navbar-brand img{
+    width:30px;
+}
+
+.navbar-brand span{
+    letter-spacing:2px;
+}
+
+.nav-link:hover{
+    color:green;
+}
+
+.nav-item{
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.05)
+}
+
+/* footer */
+footer .brand{
+    letter-spacing:2px;
+}
